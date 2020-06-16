@@ -79,5 +79,12 @@ Please note that, in the testing phase, we use the bidirectional check by settin
 ## Acknowledgement
 The code is heavily based on [CNe](https://github.com/vcg-uvic/learned-correspondence-release).
 
-The code for fundamental matrix estimation is partly borrowed from [OANet](https://github.com/zjhthu/OANet.git)
-
+The code for fundamental matrix estimation is partly borrowed from [OANet](https://github.com/zjhthu/OANet.git). If you use the part of code related to fundamental matrix estimation, please also cite OANet paper:
+```
+@article{zhang2019oanet,
+  title={Learning Two-View Correspondences and Geometry Using Order-Aware Network},
+  author={Zhang, Jiahui and Sun, Dawei and Luo, Zixin and Yao, Anbang and Zhou, Lei and Shen, Tianwei and Chen, Yurong and Quan, Long and Liao, Hongen},
+  journal={International Conference on Computer Vision (ICCV)},
+  year={2019}
+}
+```
