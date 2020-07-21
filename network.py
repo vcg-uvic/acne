@@ -151,6 +151,8 @@ class MyNetwork(object):
                 # Recover essential matrix from self-adjoing eigen
                 e, v = tf.self_adjoint_eig(XwX)
                 e_hat = tf.reshape(v[:, :, 0], (x_shp[0], 9))
+                # in case you want to directly output F
+                self.out_e_hat = e_hat
 
                 if self.config.use_fundamental > 0:
                     # Go back Essential Matrix with input norm and calibration matrix
